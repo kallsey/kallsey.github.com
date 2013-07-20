@@ -4,7 +4,7 @@
   <title><![CDATA[Category: github | Dirty Geeky Things]]></title>
   <link href="http://kallsey.github.io/blog/categories/github/atom.xml" rel="self"/>
   <link href="http://kallsey.github.io/"/>
-  <updated>2013-07-20T17:21:48-04:00</updated>
+  <updated>2013-07-20T17:41:48-04:00</updated>
   <id>http://kallsey.github.io/</id>
   <author>
     <name><![CDATA[Natasha Callender]]></name>
@@ -18,19 +18,17 @@
     <link href="http://kallsey.github.io/blog/2013/07/19/omfg-aka-how-i-ended-up-using-octopress/"/>
     <updated>2013-07-19T17:39:00-04:00</updated>
     <id>http://kallsey.github.io/blog/2013/07/19/omfg-aka-how-i-ended-up-using-octopress</id>
-    <content type="html"><![CDATA[<p>How hard does easy have to be? The post, which never ended up posting, below explains my search for a dead simple blogging system. Well… One that did not involve me putting up a static site and uploading html files all by my lonesome.</p>
+    <content type="html"><![CDATA[<p>How hard does easy have to be? The post below (which never ended up posting) explains my search for a dead simple blogging system. Well… One that did not involve me putting up a static site and uploading html files all by my lonesome.</p>
 
 <p>I thought I had found the perfect solution in one of the Dropbox/Markdown blogging engines. They sounded perfect. I should have known better. Neither Calepin or Scriptogram played nicely with my custom domain. They each had their positive points, but I want to be able to use my domain, not myname.yourcleverbrandna.me.</p>
 
-<p>Ask the person that married me, I enjoy playing with tech. I will gleefully spend hours making hard things work, but I do not want my blog to be a hard thing. I want it to be easy. Why? Because I can be lazy, and if I’m feeling lazy and updating this blog is hard, this blog will not be updated.</p>
+<p>Ask the person that married me, I enjoy playing with tech. I will gleefully spend hours making hard things work, but I do not want my blog to be a hard thing. I want it be something I can make it to a system. Why? Because human beings respond well to systems.</p>
 
-<p>Enter <a href="http://octopress.org/">Octopress</a> which I rejected yesterday, because setting it up required more steps than I had patience for, but (and this is a very big but) Octopress worked. It was more complicated than I wanted. It took longer to setup than I wanted, but it worked on the first try.</p>
+<p>Enter <a href="http://octopress.org/">Octopress</a> which I rejected yesterday, because setting it up required more steps than I had patience for, but Octopress worked. It was more complicated than I wanted. It took longer to setup than I wanted, but it worked on the first try.</p>
 
 <hr />
 
 <h4>Keep It Simple Stupid: The original blog post on dead simple static blogging</h4>
-
-<hr />
 
 <p>Remember the iPhone 4 vs HTC Evo video? <a href="http://www.youtube.com/watch?v=FL7yD-0pqZg">Here’s</a> a refresher if you don’t. I was the “I don’t care” guy today regarding publishing this blog.</p>
 
@@ -40,9 +38,9 @@
 
 <h4>Out of this world content management: I don’t care</h4>
 
-<p>My personal tech blog will consist of just words, maybe a picture if I’m not feeling super lazy. As such, I don’t need content management. I just need a way to get my content online</p>
+<p>My personal tech blog will consist of just words, maybe a picture sometimes. As such, I don’t need content management. I just need a way to get my content online</p>
 
-<h4>Super simple Ruby/Python/Whatever setup using Liquid/Moustache/Whatever templating system: I don’t care.</h4>
+<h4>Super simple Ruby/Python/Whatever setup: I don’t care.</h4>
 
 <p>Hacking is fun. As this blog will attest, I love learning new things but for the love of Christ… I just want to a dead simple way to publish git versioned static files to in the internet with zero fuss.</p>
 
@@ -70,7 +68,7 @@
 </ol>
 
 
-<p>More to later when that Skrivr invite comes in.</p>
+<p>More later when that Skrivr invite comes in.</p>
 ]]></content>
   </entry>
   
