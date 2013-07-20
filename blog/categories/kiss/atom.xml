@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Dirty Geeky Things]]></title>
-  <link href="http://kallsey.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: KISS | Dirty Geeky Things]]></title>
+  <link href="http://kallsey.github.io/blog/categories/kiss/atom.xml" rel="self"/>
   <link href="http://kallsey.github.io/"/>
   <updated>2013-07-20T16:46:24-04:00</updated>
   <id>http://kallsey.github.io/</id>
