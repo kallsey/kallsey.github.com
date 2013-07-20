@@ -20,6 +20,6 @@ Getting this blog up and running was in and of itself an adventure in tech. Poin
 
 2. It works, but my endgame is to find a Dropbox/Markdown solution that works consistently. 
 
-3. The theme, because I was lazy setting this up, is an **unmodified** implementation of Mike Clarke's [Villainy](https://github.com/mikeclarke/villainy-octopress-theme) theme.
+3. The theme is an **unmodified** implementation of Mike Clarke's [Villainy](https://github.com/mikeclarke/villainy-octopress-theme) theme.
 
 
