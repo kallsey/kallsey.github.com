@@ -16,8 +16,10 @@ I will do my best to stay on topic, with the topic being tutorials and the occas
 
 Getting this blog up and running was in and of itself an adventure in tech. Points To Note:
 
-1. It is a "baked blog" running on [Octopress](http://octopress.org/) and hosted on [GitHub Pages](http://pages.github.com/). It works, but my endgame is to find a Dropbox/Markdown solution that works consistently. 
+1. It is a "baked blog" running on [Octopress](http://octopress.org/) and hosted on [GitHub Pages](http://pages.github.com).
 
-2, The theme, because I was lazy setting this up, is an __unmodified__ implementation of Mike Clarke's [Villainy](https://github.com/mikeclarke/villainy-octopress-theme) theme.
+2. It works, but my endgame is to find a Dropbox/Markdown solution that works consistently. 
+
+3. The theme, because I was lazy setting this up, is an __unmodified__ implementation of Mike Clarke's [Villainy](https://github.com/mikeclarke/villainy-octopress-theme) theme.
 
 
