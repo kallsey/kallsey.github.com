@@ -4,7 +4,7 @@
   <title><![CDATA[Dirty Geeky Things]]></title>
   <link href="http://kallsey.github.io/atom.xml" rel="self"/>
   <link href="http://kallsey.github.io/"/>
-  <updated>2013-07-21T14:14:11-04:00</updated>
+  <updated>2013-07-21T15:05:44-04:00</updated>
   <id>http://kallsey.github.io/</id>
   <author>
     <name><![CDATA[Natasha Callender]]></name>
@@ -12,6 +12,41 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Close But No Cigar]]></title>
+    <link href="http://kallsey.github.io/blog/2013/07/21/close-but-no-cigar/"/>
+    <updated>2013-07-21T14:16:00-04:00</updated>
+    <id>http://kallsey.github.io/blog/2013/07/21/close-but-no-cigar</id>
+    <content type="html"><![CDATA[<p>Octopress is not the solution for me. Let me be clear, it works. The setup went fairly well. There were a few hiccups, but nothing that could not be solved with a few minutes of Googling. It is smooth, fast and, as these things go, painless <strong>BUT</strong> it does not fit in with my preferred workflow.</p>
+
+<p>I like writing markdown blog posts in Scrivener, and then exporting the .md files to a location of my choice. I am experimenting with using Scrivener external sync feature to auto update a Dropbox/Markdown blog, that is if I can ever find one that works the way I want it to. In a perfect world I would be able to prepare the post in Scrivener, export it to my Dropbox, and have my blog updated automatically. Simple, clean, easy.</p>
+
+<p>My Octopress workflow is a little more involved.</p>
+
+<ol>
+<li>Use  rake new_post[“title”] to created new post with correctly formatted <a href="http://jekyllrb.com/docs/frontmatter/">YAML Front Matter</a></li>
+<li>Prepare the post in Scrivener</li>
+<li>Open the document from step 1 in Mou or Sublime Text 2</li>
+<li>Cut and paste the post from step 2 into the .markdown document</li>
+</ol>
+
+
+<p><strong>The Clunk Burns My Eyes</strong></p>
+
+<p>I could spare myself a few steps and simply compose the entire blog post in Mou or Sublime Text 2, but that would mean throwing my carefully constructed Scrivener work flow out of the window. You will see in future posts why I am reluctant to do that.</p>
+
+<p>Finally, it is just not portable. These days I leave my laptop home most of the time, and just take my Android phone or tablet with me. Being able to blog/work from any of my devices is a deal breaker. Now I could be clever and install Octopress on my shared hosting account, and ssh into the server and do what I have to do that way. There are several fine ssh clients available for Android devices, <a href="https://play.google.com/store/apps/details?id=org.connectbot&amp;amp;hl=en">Connectbot</a> being my favourite. There are also a few good markdown compatible text editors available for Android as well. I bought <a href="https://play.google.com/store/apps/details?id=com.mvilla.draft&amp;amp;hl=en">Draft</a> a little while ago and could not be happier with it.</p>
+
+<p>I could also setup an always on Linux box in my basement, install Octopress on that and ssh into that from anywhere when I want to make a blog post. I could do these things, and I would get a kick out of making it work too. However, I just want to write my blog, not show off my technical skills.</p>
+
+<p>This may sound odd, but I find that getting older has dampened my zeal for doing clever, geeky things just because I can. These days I am more likely to find and use the simplest solution that works. Keep It Simple Stupid has become my philosophy of technology. My goal in every situation is to find the simplest solution that does exactly what I need it to do, when and how I need to do it.</p>
+
+<blockquote><p>“Perfection is Achieved Not When There Is Nothing More to Add, But When There Is Nothing Left to Take Away”</p></blockquote>
+
+<p><em>&ndash; Antoine de Saint-Exupéry</em></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[OMFG aka How I ended up using Octopress]]></title>
