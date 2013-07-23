@@ -5,7 +5,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Category: KISS - Natasha Callender</title>
+  <title>The Quick FFWI - Natasha Callender</title>
   <meta name="author" content="Natasha Callender">
   <link rel="author" href="humans.txt">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -13,7 +13,7 @@
   
     
   
-  <meta name="description" content=" Category: KISS ">
+  <meta name="description" content="The install with minimal back story Grab a copy of the WordPress starter repo aka WordPress Skeleton git clone https://github.com/markjaquith/ &hellip;">
   
   <!-- http://t.co/dKP3o1e -->
   <meta name="HandheldFriendly" content="True">
@@ -21,17 +21,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://kallsey.github.ioblog/categories/kiss/">
+  <link rel="canonical" href="http://kallsey.github.io/blog/2013/07/22/the-quick-ffwi/">
   <link href="/favicon.png" rel="icon">
   <link href='http://fonts.googleapis.com/css?family=Cantarell' rel='stylesheet' type='text/css'>
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Natasha Callender" type="application/atom+xml">
   <meta name="og:type" content="website" />
   <meta name="og:site_name" content="Natasha Callender" />
-  <meta name="og:title" content="Category: KISS" />
-  <meta name="og:description" content=" Category: KISS " />
-  <meta name="og:url" content="http://kallsey.github.ioblog/categories/kiss/index.html"/>
-  <meta name="url" content="http://kallsey.github.ioblog/categories/kiss/index.html">
+  <meta name="og:title" content="The Quick FFWI" />
+  <meta name="og:description" content="The install with minimal back story Grab a copy of the WordPress starter repo aka WordPress Skeleton git clone https://github.com/markjaquith/ &hellip;" />
+  <meta name="og:url" content="http://kallsey.github.io/blog/2013/07/22/the-quick-ffwi/"/>
+  <meta name="url" content="http://kallsey.github.io/blog/2013/07/22/the-quick-ffwi/">
+  
+  <meta name="subject" content=""/>
+  <meta name="category" content=""/>
   
   <meta name="distribution" content="global">
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
@@ -42,7 +45,8 @@
 
 </head>
 
-<nav role="navigation"><div class="navbar">
+<body   >
+  <nav role="navigation"><div class="navbar">
   <div class="navbar-inner">
     <a class="brand" href="/">Natasha Callender</a>
     <ul class="nav">
@@ -71,44 +75,130 @@
   </div>
 </div>
 </nav>
-<div class="wrapper_single">
-  <div class="container">
-    <article class="span8 offset2 article-format role="article">
-      <div role="div">
-        
-        <header>
-          <h1 class="entry-title">Category: KISS</h1>
-          
-        </header>
-        
-        <div id="blog-archives" class="category">
+  <div class="wrapper_single">
+    <div class="container">
+      <article class="span8 offset2" role="article">
+        <div class="article-format">
 
-
-
-  
-  <h2>2013</h2>
-
-<article class="archive-article-format">
-  
-<h2><a href="/blog/2013/07/19/omfg-aka-how-i-ended-up-using-octopress/">OMFG Aka How I Ended Up Using Octopress</a></h2>
-<time datetime="2013-07-19T17:39:00-04:00" pubdate><span class='month'>Jul</span> <span class='day'>19</span> <span class='year'>2013</span></time>
-
-<footer>
-  <span class="categories meta">posted in <a class='category' href='/blog/categories/kiss/'>KISS</a>, <a class='category' href='/blog/categories/blogging/'>blogging</a>, <a class='category' href='/blog/categories/git/'>git</a>, <a class='category' href='/blog/categories/github/'>github</a></span>
-</footer>
-
-
-</article>
-
-</div>
-
-        
-      </div>
+  <header>
     
-    </article>
-  </div>
+      <h1 class="entry-title">The Quick FFWI</h1>
+    
+    
+      <p class="meta">
+        
+  
+
+
+  
+    <span class="byline author vcard">by <span class="fn">Natasha Callender</span></span>
+  
+
+ - 
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-07-22T22:30:00-04:00" pubdate data-updated="true">Jul 22<span>nd</span>, 2013</time> - 
+        
+
+
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><h3>The install with minimal back story</h3>
+
+<ol>
+<li><p>Grab a copy of the WordPress starter repo aka WordPress Skeleton</p>
+
+<pre><code> git clone https://github.com/markjaquith/WordPress-Skeleton.git wp.dev
+</code></pre></li>
+<li><p>Populate the WordPress directory /wp/ <strong>Remember this has to be done in the target directory, <em>NOT</em> the /wp/ directory</strong></p>
+
+<pre><code> git submodule init
+ git submodule update
+</code></pre></li>
+<li><p>Rename local-config</p>
+
+<pre><code> mv local-config-sample.php local-config.php
+</code></pre></li>
+<li><p>Create the local database and modify local-config.php</p></li>
+<li><p>Copy .htaccess to a somewhere else</p>
+
+<pre><code> mkdir ~/wp-install-detritus &amp;&amp; mkdir ~/wp-install-detritus/july-2 
+ cp .htaccess ~/wp-install-detritus/july-2 
+</code></pre></li>
+<li><p>Open .htaccess in your favourite text editor and set MOD_REWRITE to OFF</p></li>
+<li><p>Set up your virtual hosts. I use <a href="http://clickontyler.com/virtualhostx/">VirtualHostX</a> like <a href="http://seansperte.com/entry/Setting_Up_a_Killer_Local_Web_Development_Environment_on_a_Mac_with_MAMP_an/">this</a> vi, but there are <a href="http://wp.tutsplus.com/tutorials/hosting/wordpress-development-and-deployment-with-mamp-git-and-dropbox/">other methods</a> that do not involve having to buy software.</p></li>
+<li><p>Open a browser and navigate to your WordPress directory</p></li>
+<li><p>Follow the prompts</p></li>
+</ol>
+
 </div>
-<div id="footer-widgets">
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+
+  
+    <span class="byline author vcard">by <span class="fn">Natasha Callender</span></span>
+  
+
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-07-22T22:30:00-04:00" pubdate data-updated="true">Jul 22<span>nd</span>, 2013</time>
+      
+
+
+    </p>
+    
+      <div class="sharing-box">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://kallsey.github.io/blog/2013/07/22/the-quick-ffwi/" data-via="" data-counturl="http://kallsey.github.io/blog/2013/07/22/the-quick-ffwi/" data-size="large">Tweet</a>
+  
+  
+  
+</div>
+
+    
+    
+      <a class="pull-left" href="/blog/2013/07/22/lets-talk-about-wordpress/" title="Previous Post: Let's Talk About Wordpress">&laquo; Let's Talk About Wordpress</a>
+    
+    
+  </footer>
+
+</div>
+
+        
+      </article>
+    </div>
+  </div>
+  <div id="footer-widgets">
   <div class="container">
     <div class="row">
   <div class="span3">
@@ -171,7 +261,7 @@
   </div>
 </footer>
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
 <script>window.jQuery || document.write('<script src="/javascripts/libs/jquery-1.7.2.min.js" type="text/javascript"><\/script>')</script>
 <script src="/javascripts/libs/bootstrap.min.js" type="text/javascript"></script>
 <script src="/javascripts/jquery.tweet.js" type="text/javascript"></script>
@@ -199,3 +289,5 @@
 
 
 
+</body>
+</html>
