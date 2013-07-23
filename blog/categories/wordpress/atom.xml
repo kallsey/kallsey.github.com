@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Wordpress | Natasha Callender]]></title>
+  <title><![CDATA[Category: Wordpress, | Natasha Callender]]></title>
   <link href="http://kallsey.github.io/blog/categories/wordpress/atom.xml" rel="self"/>
   <link href="http://kallsey.github.io/"/>
-  <updated>2013-07-22T22:31:36-04:00</updated>
+  <updated>2013-07-22T22:34:14-04:00</updated>
   <id>http://kallsey.github.io/</id>
   <author>
     <name><![CDATA[Natasha Callender]]></name>
@@ -12,6 +12,42 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[The Quick FFWI]]></title>
+    <link href="http://kallsey.github.io/blog/2013/07/22/the-quick-ffwi/"/>
+    <updated>2013-07-22T22:30:00-04:00</updated>
+    <id>http://kallsey.github.io/blog/2013/07/22/the-quick-ffwi</id>
+    <content type="html"><![CDATA[<h3>The install with minimal back story</h3>
+
+<ol>
+<li><p>Grab a copy of the WordPress starter repo aka WordPress Skeleton</p>
+
+<pre><code> git clone https://github.com/markjaquith/WordPress-Skeleton.git wp.dev
+</code></pre></li>
+<li><p>Populate the WordPress directory /wp/ <strong>Remember this has to be done in the target directory, <em>NOT</em> the /wp/ directory</strong></p>
+
+<pre><code> git submodule init
+ git submodule update
+</code></pre></li>
+<li><p>Rename local-config</p>
+
+<pre><code> mv local-config-sample.php local-config.php
+</code></pre></li>
+<li><p>Create the local database and modify local-config.php</p></li>
+<li><p>Copy .htaccess to a somewhere else</p>
+
+<pre><code> mkdir ~/wp-install-detritus &amp;&amp; mkdir ~/wp-install-detritus/july-2 
+ cp .htaccess ~/wp-install-detritus/july-2 
+</code></pre></li>
+<li><p>Open .htaccess in your favourite text editor and set MOD_REWRITE to OFF</p></li>
+<li><p>Set up your virtual hosts. I use <a href="http://clickontyler.com/virtualhostx/">VirtualHostX</a> like <a href="http://seansperte.com/entry/Setting_Up_a_Killer_Local_Web_Development_Environment_on_a_Mac_with_MAMP_an/">this</a> vi, but there are <a href="http://wp.tutsplus.com/tutorials/hosting/wordpress-development-and-deployment-with-mamp-git-and-dropbox/">other methods</a> that do not involve having to buy software.</p></li>
+<li><p>Open a browser and navigate to your WordPress directory</p></li>
+<li><p>Follow the prompts</p></li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Let's Talk About Wordpress]]></title>
