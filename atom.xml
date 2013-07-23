@@ -4,7 +4,7 @@
   <title><![CDATA[Natasha Callender]]></title>
   <link href="http://kallsey.github.io/atom.xml" rel="self"/>
   <link href="http://kallsey.github.io/"/>
-  <updated>2013-07-22T22:20:15-04:00</updated>
+  <updated>2013-07-22T22:29:33-04:00</updated>
   <id>http://kallsey.github.io/</id>
   <author>
     <name><![CDATA[Natasha Callender]]></name>
@@ -12,6 +12,72 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Let's Talk About Wordpress]]></title>
+    <link href="http://kallsey.github.io/blog/2013/07/22/lets-talk-about-wordpress/"/>
+    <updated>2013-07-22T22:24:00-04:00</updated>
+    <id>http://kallsey.github.io/blog/2013/07/22/lets-talk-about-wordpress</id>
+    <content type="html"><![CDATA[<p>My personal blogging needs notwithstanding, I prefer Wordpress for almost every thing else. Hence the search for a (as always) dead simple Wordpress install. I can call it the fancy wordpress install, but it is not really that fancy. It is elegant.</p>
+
+<h2>Full Fancy Wordpress Install</h2>
+
+<p>Ease of use and consistent version control are the driving forces behind this installation method. The goal is to have all development done locally with Git being used to push updates to the web server (in my case locally means a directory in my Dropbox folder). Wordpress’s Mark Jaquith’s makes this process painless with a Github based starter repo called <a href="https://github.com/markjaquith/WordPress-Skeleton">WordPress Skeleton</a>. Feel free to go read that and ignore everything else on this page.</p>
+
+<p>Most of the information below is typical for setting a local WordPress development installation on a mac or linux machine. I am assuming, hopefully not incorrectly, that you already have a working local WordPress development environment. If not, please take a look <a href="http://seansperte.com/entry/Setting_Up_a_Killer_Local_Web_Development_Environment_on_a_Mac_with_MAMP_an/">here</a>, <a href="http://css-tricks.com/video-screencasts/86-mamp/">here</a>, or if you are using a Windows machine, <a href="http://wp.tutsplus.com/tutorials/how-to-setup-a-wordpress-development-environment-for-windows/">here</a>. Tutorials, screencasts, and blog posts abound on this topic, just pick one and you are good to go. The major differences between this and any other WordPress installation are:</p>
+
+<ol>
+<li>We are using git to get the WordPress files from a repo stored on GitHub.</li>
+<li>Our WordPress installation looks a bit different from normal. Its features are explained <a href="http://markjaquith.wordpress.com/2012/05/26/wordpress-skeleton/">at Mark Jaquith’s blog</a>. The highlights:
+
+<ul>
+<li>WordPress as a git submodule in /wp/</li>
+<li>A custom content directory in /content/. Therefore your content is separate from wordpress core files making updates less painful</li>
+<li>All writeable directories are symlinked to similarily named locations under /shared/</li>
+<li>local-config.php is used to keep the settings for local development separate from those for the production/live server</li>
+<li>/shared/ is just used for local development</li>
+<li>/wp/ starts off empty because it is git submodule</li>
+</ul>
+</li>
+</ol>
+
+
+<h2>Steps</h2>
+
+<ol>
+<li><p>Install <a href="https://github.com/markjaquith/WordPress-Skeleton">WordPress Skeleton</a> in the target directory. <strong>Remember</strong> Unless a target directory is specified for the repo to be cloned into, git will create a directory called Wordpress Skeleton and put the repo in there.</p>
+
+<pre><code> git clone https://github.com/markjaquith/WordPress-Skeleton.git wp.dev
+</code></pre></li>
+<li><p>Initialise the /wp/ submodule and get the latest copy of WordPress. In the <strong>target directory (cd wp.dev) and not /wp/ run</strong></p>
+
+<pre><code> git submodule init
+ git submodule update
+</code></pre></li>
+<li><p>Create an empty database using phpmyadmin, Sequel Pro or some such</p></li>
+<li><p>Working with the config files</p>
+
+<ul>
+<li>Rename local-config-sample.php to local-config.php</li>
+<li>Make the requisite changes for the local database</li>
+<li>Rename wp-config-sample.php to wp-config.php</li>
+<li>Make the requisite changes for the remote database or leave alone if all development is local at the moment.</li>
+</ul>
+</li>
+<li><p>Working with the .htaccess file</p>
+
+<ul>
+<li>Copy the existing .htaccess from the root to a safe place</li>
+<li>Open the .htaccess and set MOD_REWRITE to OFF. <em>When I have problems with the local installation it usually has something to do with the .htaccess file.</em></li>
+</ul>
+</li>
+<li><p>Open a browser and navigate to the target directory or domainname/wp/wp-admin</p></li>
+<li><p>Set up WordPress as usual aka the <a href="http://codex.wordpress.org/Installing_WordPress#Famous_5-Minute_Install">Famous Five Minute Install</a>.</p></li>
+<li><p>Tell someone of your awesome WordPress skills, preferably not your non-techie friends on Facebook. They don’t care. I have learned this the hard way.</p></li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Close But No Cigar]]></title>
