@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: github, | Natasha Callender]]></title>
+  <title><![CDATA[Category: github | Natasha Callender]]></title>
   <link href="http://kallsey.github.io/blog/categories/github/atom.xml" rel="self"/>
   <link href="http://kallsey.github.io/"/>
-  <updated>2013-07-22T22:36:52-04:00</updated>
+  <updated>2013-07-22T22:40:53-04:00</updated>
   <id>http://kallsey.github.io/</id>
   <author>
     <name><![CDATA[Natasha Callender]]></name>
@@ -46,6 +46,166 @@
 <li><p>Follow the prompts</p></li>
 </ol>
 
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Let's Talk About Wordpress]]></title>
+    <link href="http://kallsey.github.io/blog/2013/07/22/lets-talk-about-wordpress/"/>
+    <updated>2013-07-22T22:24:00-04:00</updated>
+    <id>http://kallsey.github.io/blog/2013/07/22/lets-talk-about-wordpress</id>
+    <content type="html"><![CDATA[<p>My personal blogging needs notwithstanding, I prefer Wordpress for almost every thing else. Hence the search for a (as always) dead simple Wordpress install. I can call it the fancy wordpress install, but it is not really that fancy. It is elegant.</p>
+
+<h2>Full Fancy Wordpress Install</h2>
+
+<p>Ease of use and consistent version control are the driving forces behind this installation method. The goal is to have all development done locally with Git being used to push updates to the web server (in my case locally means a directory in my Dropbox folder). Wordpress’s Mark Jaquith’s makes this process painless with a Github based starter repo called <a href="https://github.com/markjaquith/WordPress-Skeleton">WordPress Skeleton</a>. Feel free to go read that and ignore everything else on this page.</p>
+
+<p>Most of the information below is typical for setting a local WordPress development installation on a mac or linux machine. I am assuming, hopefully not incorrectly, that you already have a working local WordPress development environment. If not, please take a look <a href="http://seansperte.com/entry/Setting_Up_a_Killer_Local_Web_Development_Environment_on_a_Mac_with_MAMP_an/">here</a>, <a href="http://css-tricks.com/video-screencasts/86-mamp/">here</a>, or if you are using a Windows machine, <a href="http://wp.tutsplus.com/tutorials/how-to-setup-a-wordpress-development-environment-for-windows/">here</a>. Tutorials, screencasts, and blog posts abound on this topic, just pick one and you are good to go. The major differences between this and any other WordPress installation are:</p>
+
+<ol>
+<li>We are using git to get the WordPress files from a repo stored on GitHub.</li>
+<li>Our WordPress installation looks a bit different from normal. Its features are explained <a href="http://markjaquith.wordpress.com/2012/05/26/wordpress-skeleton/">at Mark Jaquith’s blog</a>. The highlights:
+
+<ul>
+<li>WordPress as a git submodule in /wp/</li>
+<li>A custom content directory in /content/. Therefore your content is separate from wordpress core files making updates less painful</li>
+<li>All writeable directories are symlinked to similarily named locations under /shared/</li>
+<li>local-config.php is used to keep the settings for local development separate from those for the production/live server</li>
+<li>/shared/ is just used for local development</li>
+<li>/wp/ starts off empty because it is git submodule</li>
+</ul>
+</li>
+</ol>
+
+
+<h2>Steps</h2>
+
+<ol>
+<li><p>Install <a href="https://github.com/markjaquith/WordPress-Skeleton">WordPress Skeleton</a> in the target directory. <strong>Remember</strong> Unless a target directory is specified for the repo to be cloned into, git will create a directory called Wordpress Skeleton and put the repo in there.</p>
+
+<pre><code> git clone https://github.com/markjaquith/WordPress-Skeleton.git wp.dev
+</code></pre></li>
+<li><p>Initialise the /wp/ submodule and get the latest copy of WordPress. In the <strong>target directory (cd wp.dev) and not /wp/ run</strong></p>
+
+<pre><code> git submodule init
+ git submodule update
+</code></pre></li>
+<li><p>Create an empty database using phpmyadmin, Sequel Pro or some such</p></li>
+<li><p>Working with the config files</p>
+
+<ul>
+<li>Rename local-config-sample.php to local-config.php</li>
+<li>Make the requisite changes for the local database</li>
+<li>Rename wp-config-sample.php to wp-config.php</li>
+<li>Make the requisite changes for the remote database or leave alone if all development is local at the moment.</li>
+</ul>
+</li>
+<li><p>Working with the .htaccess file</p>
+
+<ul>
+<li>Copy the existing .htaccess from the root to a safe place</li>
+<li>Open the .htaccess and set MOD_REWRITE to OFF. <em>When I have problems with the local installation it usually has something to do with the .htaccess file.</em></li>
+</ul>
+</li>
+<li><p>Open a browser and navigate to the target directory or domainname/wp/wp-admin</p></li>
+<li><p>Set up WordPress as usual aka the <a href="http://codex.wordpress.org/Installing_WordPress#Famous_5-Minute_Install">Famous Five Minute Install</a>.</p></li>
+<li><p>Tell someone of your awesome WordPress skills, preferably not your non-techie friends on Facebook. They don’t care. I have learned this the hard way.</p></li>
+</ol>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Close But No Cigar]]></title>
+    <link href="http://kallsey.github.io/blog/2013/07/21/close-but-no-cigar/"/>
+    <updated>2013-07-21T14:16:00-04:00</updated>
+    <id>http://kallsey.github.io/blog/2013/07/21/close-but-no-cigar</id>
+    <content type="html"><![CDATA[<p>Octopress is not the solution for me. Let me be clear, it works. The setup went fairly well. There were a few hiccups, but nothing that could not be solved with a few minutes of Googling. It is smooth, fast and, as these things go, painless <strong>BUT</strong> it does not fit in with my preferred workflow.</p>
+
+<p>I like writing markdown blog posts in Scrivener, and then exporting the .md files to a location of my choice. I am experimenting with using Scrivener external sync feature to auto update a Dropbox/Markdown blog, that is if I can ever find one that works the way I want it to. In a perfect world I would be able to prepare the post in Scrivener, export it to my Dropbox, and have my blog updated automatically. Simple, clean, easy.</p>
+
+<p>My Octopress workflow is a little more involved.</p>
+
+<ol>
+<li>Use  rake new_post[“title”] to created new post with correctly formatted <a href="http://jekyllrb.com/docs/frontmatter/">YAML Front Matter</a></li>
+<li>Prepare the post in Scrivener</li>
+<li>Open the document from step 1 in Mou or Sublime Text 2</li>
+<li>Cut and paste the post from step 2 into the .markdown document</li>
+</ol>
+
+
+<p><strong>The Clunk Burns My Eyes</strong></p>
+
+<p>I could spare myself a few steps and simply compose the entire blog post in Mou or Sublime Text 2, but that would mean throwing my carefully constructed Scrivener work flow out of the window. You will see in future posts why I am reluctant to do that.</p>
+
+<p>Finally, it is just not portable. These days I leave my laptop home most of the time, and just take my Android phone or tablet with me. Being able to blog/work from any of my devices is a deal breaker. Now I could be clever and install Octopress on my shared hosting account, and ssh into the server and do what I have to do that way. There are several fine ssh clients available for Android devices, <a href="https://play.google.com/store/apps/details?id=org.connectbot&amp;amp;hl=en">Connectbot</a> being my favourite. There are also a few good markdown compatible text editors available for Android as well. I bought <a href="https://play.google.com/store/apps/details?id=com.mvilla.draft&amp;amp;hl=en">Draft</a> a little while ago and could not be happier with it.</p>
+
+<p>I could also setup an always on Linux box in my basement, install Octopress on that and ssh into that from anywhere when I want to make a blog post. I could do these things, and I would get a kick out of making it work too. However, I just want to write my blog, not show off my technical skills.</p>
+
+<p>This may sound odd, but I find that getting older has dampened my zeal for doing clever, geeky things just because I can. These days I am more likely to find and use the simplest solution that works. Keep It Simple Stupid has become my philosophy of technology. My goal in every situation is to find the simplest solution that does exactly what I need it to do, when and how I need to do it.</p>
+
+<blockquote><p>“Perfection is Achieved Not When There Is Nothing More to Add, But When There Is Nothing Left to Take Away”</p></blockquote>
+
+<p><em>&ndash; Antoine de Saint-Exupéry</em></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[OMFG aka How I ended up using Octopress]]></title>
+    <link href="http://kallsey.github.io/blog/2013/07/19/omfg-aka-how-i-ended-up-using-octopress/"/>
+    <updated>2013-07-19T17:39:00-04:00</updated>
+    <id>http://kallsey.github.io/blog/2013/07/19/omfg-aka-how-i-ended-up-using-octopress</id>
+    <content type="html"><![CDATA[<p>How hard does easy have to be? The post below (which never ended up posting) explains my search for a dead simple blogging system. Well… One that did not involve me putting up a static site and uploading html files all by my lonesome.</p>
+
+<p>I thought I had found the perfect solution in one of the Dropbox/Markdown blogging engines. They sounded perfect. I should have known better. Neither Calepin or Scriptogram played nicely with my custom domain. They each had their positive points, but I want to be able to use my domain, not myname.yourcleverbrandna.me.</p>
+
+<p>Ask the person that married me, I enjoy playing with tech. I will gleefully spend hours making hard things work, but I do not want my blog to be a hard thing. I want it be something I can make it to a system. Why? Because human beings respond well to systems.</p>
+
+<p>Enter <a href="http://octopress.org/">Octopress</a> which I rejected yesterday, because setting it up required more steps than I had patience for, but Octopress worked. It was more complicated than I wanted. It took longer to setup than I wanted, but it worked on the first try.</p>
+
+<hr />
+
+<h4>Keep It Simple Stupid: The original blog post on dead simple static blogging</h4>
+
+<p>Remember the iPhone 4 vs HTC Evo video? <a href="http://www.youtube.com/watch?v=FL7yD-0pqZg">Here’s</a> a refresher if you don’t. I was the “I don’t care” guy today regarding publishing this blog.</p>
+
+<h4>Wizardly Templates: I don’t care</h4>
+
+<p>I do not, for this blog, give two bucky wukkups about how fancy it looks. I just want it published and looking semi decent.</p>
+
+<h4>Out of this world content management: I don’t care</h4>
+
+<p>My personal tech blog will consist of just words, maybe a picture sometimes. As such, I don’t need content management. I just need a way to get my content online</p>
+
+<h4>Super simple Ruby/Python/Whatever setup: I don’t care.</h4>
+
+<p>Hacking is fun. As this blog will attest, I love learning new things but for the love of Christ… I just want to a dead simple way to publish git versioned static files to in the internet with zero fuss.</p>
+
+<h4>The solution <em>for now</em></h4>
+
+<p>The solution, for now, consists of fun with Markdown-Dropbox blogging platforms. This <a href="http://www.fearofconfusion.com/2012/01/three-markdown-dropbox-bloggging.html">site</a> has a good run down of the options.</p>
+
+<h5>The Trials</h5>
+
+<ol>
+<li>I tried and abandoned <a href="http://scriptogr.am/">Scriptgr.am</a> it looked pretty but the lack of an obvious way to use a custom domain was a deal breaker.</li>
+<li><a href="http://skrivr.com/">Skrivr’s</a> website is divine. Call me shallow, but a website that pretty just begs for the product therein to be used. Alas, it is invite only. I will try it as soon as my invite comes in.</li>
+<li><a href="http://calepin.co/">Calepin’s</a> setup was a breeze, and the information I needed on custom domains was on the front page. Guess who won?</li>
+</ol>
+
+
+<h5>Likes/Dislikes and things about which I am indifferent</h5>
+
+<ol>
+<li>I like the Dropbox/Markdown combination. It has the potential to fit almost seamlessly into my Scrivener/Dropbox/Markdown workflow which will be discussed in a future post.</li>
+<li>I like that my files sit in a simple directory in my Dropbox folder. Versioning will be simple.</li>
+<li>I <strong>love</strong> that updating my blog is as portable as anything else using my Dropbox account.</li>
+<li>I do not like that I have to go to their website and publish the posts through a dashboard. I am a command line kinda girl. I want the option to not have to log in to a website to publish.</li>
+<li>I am indifferent about the looks. It isn&rsquo;t the prettiest site in the world, but it loads fast and is functional. Usability expert Jakob Nielsen used to maintain one of the ugliest but oh so very useable sites on the interwebz. It has been taken down, but the original can still be seen <a href="http://chnm.gmu.edu/digitalhistory/links/cached/chapter4/4_2_useit.htm">here</a>.</li>
+</ol>
+
+
+<p>More later when that Skrivr invite comes in.</p>
 ]]></content>
   </entry>
   
