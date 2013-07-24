@@ -4,7 +4,7 @@
   <title><![CDATA[Natasha Callender]]></title>
   <link href="http://kallsey.github.io/atom.xml" rel="self"/>
   <link href="http://kallsey.github.io/"/>
-  <updated>2013-07-23T20:55:03-04:00</updated>
+  <updated>2013-07-23T22:42:09-04:00</updated>
   <id>http://kallsey.github.io/</id>
   <author>
     <name><![CDATA[Natasha Callender]]></name>
@@ -12,6 +12,47 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Blogging like a hacker is overrated]]></title>
+    <link href="http://kallsey.github.io/blog/2013/07/23/blogging-like-a-hacker-is-overrated/"/>
+    <updated>2013-07-23T22:38:00-04:00</updated>
+    <id>http://kallsey.github.io/blog/2013/07/23/blogging-like-a-hacker-is-overrated</id>
+    <content type="html"><![CDATA[<p>I am on someone else&rsquo;s macbook at the moment, and I want to update my blog. My first instinct was to groan, and grumble about Octopress&rsquo;s portability issues. My second instinct was to think that it is not that bad. All I have to do is,</p>
+
+<ol>
+<li>Install homebrew, git and ruby on this computer</li>
+<li>Install Octopress on this computer</li>
+<li>Clone my blog</li>
+<li>Blog</li>
+</ol>
+
+
+<p>Ok, I am going to stop here for a second, and cry a little about step 1. I have had a development environment on my mac for so long that I have forgotten what it is like to not have one. Oh crap! I need to install xcode as well. The amended steps for blogging on someone else&rsquo;s computer are as follows,mo</p>
+
+<ol>
+<li>Sigh heavily</li>
+<li>Install Xcode</li>
+<li>Install homebrew, git and ruby</li>
+<li>Install Octopress</li>
+<li>Realise that this is madness and find another solution</li>
+</ol>
+
+
+<p>I was about to download xcode when the insanity of what I was about to do became clear.</p>
+
+<ol>
+<li>The macbook I am typing on is not mine. I would not be happy if someone downloaded a whole bunch of stuff onto my laptop without permission.</li>
+<li>Recreating a dev environment on a laptop I only plan on using for a few hours is a waste of time</li>
+<li>The above is a clunky, inelegant, decidedly unsimple (I know that is not a word) solution to my blogging problem.</li>
+</ol>
+
+
+<p>My compromise solution is to use textedit to write the blog post, which I am doing right now, save it to my Dropbox and upload it when I get back to my computer.  I am again struck by the problem with those static blog generators that <strong>have</strong> to live in a local development environment. With a Dropbox/Markdown blogging solution like scrivr, or calepin, my compromise solution would be the only solution. My process would be to write the post, save it to my dropbox and I am done. The truth is that I do <strong>not</strong> want to blog like a hacker. <strong>I want to blog like a lifehacker.</strong></p>
+
+<p>This feeling is kind of like the day I realized that for keeping track of the things that need keeping track of, a moleskine cashier pocket notebook fit better into my life than my sleek moleskine hard cover calendar, which fit better into my life than any of my tricked out Android devices.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[The Quick FFWI]]></title>
