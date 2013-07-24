@@ -208,14 +208,30 @@ posted in
 <li><p>Grab a copy of the WordPress starter repo aka WordPress Skeleton</p>
 
 <pre><code> git clone https://github.com/markjaquith/WordPress-Skeleton.git wp.dev
-</code></pre>
+</code></pre></li>
+<li><p>Populate the WordPress directory /wp/ <strong>Remember this has to be done in the target directory, <em>NOT</em> the /wp/ directory</strong></p>
 
-<p> </div>
+<pre><code> git submodule init
+ git submodule update 
+</code></pre></li>
+<li><p>Rename local-config</p>
+
+<pre><code> mv local-config-sample.php local-config.php
+</code></pre></li>
+<li><p>Create the local database and modify local-config.php</p></li>
+<li><p>Copy .htaccess to a somewhere else</p>
+
+<pre><code> mkdir ~/wp-install-detritus &amp;&amp; mkdir ~/wp-install-detritus/july-2 
+ cp .htaccess ~/wp-install-detritus/july-2 
+</code></pre></li>
+<li><p>Open .htaccess in your favourite text editor and set MOD_REWRITE to OFF</p></li>
+<li><p>Set up your virtual hosts. I use <a href="http://clickontyler.com/virtualhostx/">VirtualHostX</a> like <a href="http://seansperte.com/entry/Setting_Up_a_Killer_Local_Web_Development_Environment_on_a_Mac_with_MAMP_an/">this</a> vi, but there are <a href="http://wp.tutsplus.com/tutorials/hosting/wordpress-development-and-deployment-with-mamp-git-and-dropbox/">other methods</a> that do not involve having to buy software.</p></li>
+<li><p>Open a browser and navigate to your WordPress directory</p></li>
+<li><p>Follow the prompts</p></li>
+</ol>
+
+</div>
   
-  
-    <footer>
-      <a rel="full-article" href="/blog/2013/07/22/the-quick-ffwi/">Read on &rarr;</a>
-    </footer>
   
 
 
