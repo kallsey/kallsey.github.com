@@ -4,7 +4,7 @@
   <title><![CDATA[Category: github | Natasha Callender]]></title>
   <link href="http://kallsey.github.io/blog/categories/github/atom.xml" rel="self"/>
   <link href="http://kallsey.github.io/"/>
-  <updated>2013-07-23T22:56:03-04:00</updated>
+  <updated>2013-07-23T23:26:09-04:00</updated>
   <id>http://kallsey.github.io/</id>
   <author>
     <name><![CDATA[Natasha Callender]]></name>
@@ -24,11 +24,13 @@
 <li><p>Grab a copy of the WordPress starter repo aka WordPress Skeleton</p>
 
 <pre><code> git clone https://github.com/markjaquith/WordPress-Skeleton.git wp.dev
-</code></pre></li>
+</code></pre>
+
+<p> <!--more--></p></li>
 <li><p>Populate the WordPress directory /wp/ <strong>Remember this has to be done in the target directory, <em>NOT</em> the /wp/ directory</strong></p>
 
 <pre><code> git submodule init
- git submodule update
+ git submodule update 
 </code></pre></li>
 <li><p>Rename local-config</p>
 
@@ -55,6 +57,9 @@
     <updated>2013-07-22T22:24:00-04:00</updated>
     <id>http://kallsey.github.io/blog/2013/07/22/lets-talk-about-wordpress</id>
     <content type="html"><![CDATA[<p>My personal blogging needs notwithstanding, I prefer Wordpress for almost every thing else. Hence the search for a (as always) dead simple Wordpress install. I can call it the fancy wordpress install, but it is not really that fancy. It is elegant.</p>
+
+<!--more-->
+
 
 <h2>Full Fancy Wordpress Install</h2>
 
@@ -122,6 +127,9 @@
     <id>http://kallsey.github.io/blog/2013/07/21/close-but-no-cigar</id>
     <content type="html"><![CDATA[<p>Octopress is not the solution for me. Let me be clear, it works. The setup went fairly well. There were a few hiccups, but nothing that could not be solved with a few minutes of Googling. It is smooth, fast and, as these things go, painless <strong>BUT</strong> it does not fit in with my preferred workflow.</p>
 
+<!--more-->
+
+
 <p>I like writing markdown blog posts in Scrivener, and then exporting the .md files to a location of my choice. I am experimenting with using Scrivener external sync feature to auto update a Dropbox/Markdown blog, that is if I can ever find one that works the way I want it to. In a perfect world I would be able to prepare the post in Scrivener, export it to my Dropbox, and have my blog updated automatically. Simple, clean, easy.</p>
 
 <p>My Octopress workflow is a little more involved.</p>
@@ -155,7 +163,7 @@
     <link href="http://kallsey.github.io/blog/2013/07/19/omfg-aka-how-i-ended-up-using-octopress/"/>
     <updated>2013-07-19T17:39:00-04:00</updated>
     <id>http://kallsey.github.io/blog/2013/07/19/omfg-aka-how-i-ended-up-using-octopress</id>
-    <content type="html"><![CDATA[<p>How hard does easy have to be? The post below (which never ended up posting) explains my search for a dead simple blogging system. Well… One that did not involve me putting up a static site and uploading html files all by my lonesome.</p>
+    <content type="html"><![CDATA[<p>How hard does easy have to be? The post below (which never ended up posting) explains my search for a dead simple blogging system. Well… One that did not involve me putting up a static site and uploading html files all by my lonesome. <!--more--></p>
 
 <p>I thought I had found the perfect solution in one of the Dropbox/Markdown blogging engines. They sounded perfect. I should have known better. Neither Calepin or Scriptogram played nicely with my custom domain. They each had their positive points, but I want to be able to use my domain, not myname.yourcleverbrandna.me.</p>
 

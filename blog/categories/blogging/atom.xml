@@ -4,7 +4,7 @@
   <title><![CDATA[Category: blogging | Natasha Callender]]></title>
   <link href="http://kallsey.github.io/blog/categories/blogging/atom.xml" rel="self"/>
   <link href="http://kallsey.github.io/"/>
-  <updated>2013-07-23T22:56:03-04:00</updated>
+  <updated>2013-07-23T23:26:09-04:00</updated>
   <id>http://kallsey.github.io/</id>
   <author>
     <name><![CDATA[Natasha Callender]]></name>
@@ -19,6 +19,9 @@
     <updated>2013-07-21T14:16:00-04:00</updated>
     <id>http://kallsey.github.io/blog/2013/07/21/close-but-no-cigar</id>
     <content type="html"><![CDATA[<p>Octopress is not the solution for me. Let me be clear, it works. The setup went fairly well. There were a few hiccups, but nothing that could not be solved with a few minutes of Googling. It is smooth, fast and, as these things go, painless <strong>BUT</strong> it does not fit in with my preferred workflow.</p>
+
+<!--more-->
+
 
 <p>I like writing markdown blog posts in Scrivener, and then exporting the .md files to a location of my choice. I am experimenting with using Scrivener external sync feature to auto update a Dropbox/Markdown blog, that is if I can ever find one that works the way I want it to. In a perfect world I would be able to prepare the post in Scrivener, export it to my Dropbox, and have my blog updated automatically. Simple, clean, easy.</p>
 
@@ -53,7 +56,7 @@
     <link href="http://kallsey.github.io/blog/2013/07/19/omfg-aka-how-i-ended-up-using-octopress/"/>
     <updated>2013-07-19T17:39:00-04:00</updated>
     <id>http://kallsey.github.io/blog/2013/07/19/omfg-aka-how-i-ended-up-using-octopress</id>
-    <content type="html"><![CDATA[<p>How hard does easy have to be? The post below (which never ended up posting) explains my search for a dead simple blogging system. Well… One that did not involve me putting up a static site and uploading html files all by my lonesome.</p>
+    <content type="html"><![CDATA[<p>How hard does easy have to be? The post below (which never ended up posting) explains my search for a dead simple blogging system. Well… One that did not involve me putting up a static site and uploading html files all by my lonesome. <!--more--></p>
 
 <p>I thought I had found the perfect solution in one of the Dropbox/Markdown blogging engines. They sounded perfect. I should have known better. Neither Calepin or Scriptogram played nicely with my custom domain. They each had their positive points, but I want to be able to use my domain, not myname.yourcleverbrandna.me.</p>
 

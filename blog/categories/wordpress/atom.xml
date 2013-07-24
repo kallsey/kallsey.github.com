@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Wordpress | Natasha Callender]]></title>
   <link href="http://kallsey.github.io/blog/categories/wordpress/atom.xml" rel="self"/>
   <link href="http://kallsey.github.io/"/>
-  <updated>2013-07-23T22:56:03-04:00</updated>
+  <updated>2013-07-23T23:26:09-04:00</updated>
   <id>http://kallsey.github.io/</id>
   <author>
     <name><![CDATA[Natasha Callender]]></name>
@@ -24,11 +24,13 @@
 <li><p>Grab a copy of the WordPress starter repo aka WordPress Skeleton</p>
 
 <pre><code> git clone https://github.com/markjaquith/WordPress-Skeleton.git wp.dev
-</code></pre></li>
+</code></pre>
+
+<p> <!--more--></p></li>
 <li><p>Populate the WordPress directory /wp/ <strong>Remember this has to be done in the target directory, <em>NOT</em> the /wp/ directory</strong></p>
 
 <pre><code> git submodule init
- git submodule update
+ git submodule update 
 </code></pre></li>
 <li><p>Rename local-config</p>
 
@@ -55,6 +57,9 @@
     <updated>2013-07-22T22:24:00-04:00</updated>
     <id>http://kallsey.github.io/blog/2013/07/22/lets-talk-about-wordpress</id>
     <content type="html"><![CDATA[<p>My personal blogging needs notwithstanding, I prefer Wordpress for almost every thing else. Hence the search for a (as always) dead simple Wordpress install. I can call it the fancy wordpress install, but it is not really that fancy. It is elegant.</p>
+
+<!--more-->
+
 
 <h2>Full Fancy Wordpress Install</h2>
 
