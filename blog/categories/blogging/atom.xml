@@ -4,7 +4,7 @@
   <title><![CDATA[Category: blogging | Natasha Callender]]></title>
   <link href="http://kallsey.github.io/blog/categories/blogging/atom.xml" rel="self"/>
   <link href="http://kallsey.github.io/"/>
-  <updated>2013-08-05T14:22:29-04:00</updated>
+  <updated>2013-10-21T18:50:03-04:00</updated>
   <id>http://kallsey.github.io/</id>
   <author>
     <name><![CDATA[Natasha Callender]]></name>
@@ -12,6 +12,56 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[working-with-markbox]]></title>
+    <link href="http://kallsey.github.io/blog/2013/10/21/working-with-markbox/"/>
+    <updated>2013-10-21T18:46:00-04:00</updated>
+    <id>http://kallsey.github.io/blog/2013/10/21/working-with-markbox</id>
+    <content type="html"><![CDATA[<p>Of the dropbox/markdown solutions, <a href="http://www.markbox.io/">Markbox.io</a> and <a href="http://skrivr.com/">Skrivr&rsquo;s</a> seem to be the ones with the most promise. This does leave me to wonder why dropbox/markdown baked blogs are not really catching on. It seems like an obvious solution, and come on, all the techie types likely to use this sort of thing have dropbox accounts and probably worship at the altar of markdown. Is this blogging method too new, or is it that there&rsquo;s something here people do not trust? Time will tell, nevertheless I like the idea of it and I am going to try.</p>
+
+<p>Both markbox and skrivr require invites to their paid accounts. I don&rsquo;t like the idea of adding another monthly bill, but ehh&hellip; $6 US isn&rsquo;t that much of a hardship. I already pay $3 just to not have to listen to ads Pandora. Word to the developer &ndash; I love, love, love that my monthly commitment to Pandora shows up as a subscription on my Google Play account. Something to think about when everything is up running and working as you would like it.</p>
+
+<p>My markbox.io invite came in a month ago. The initial setup was a breeze, but I ran into two roadblocks. The first was that naming of the blog did not work out quite like I expected. The default blog address is/was username.new.markbox.io. According to the instructions I should have been able to log in, setup my account and rename the blog to username.markbox.io.</p>
+
+<p>No joy!</p>
+
+<p>It turns out that the developer(s) have moved the service from Google Apps to another provider. I suspect that the kinks in pointing blogs created with the new system to the naming convention of those created with the old have not been worked out yet. This is a little annoying, but I can live with it.</p>
+
+<p>The second roadblock was, as usual, my using a custom domain name. It is possible, but requires a $10.00 one time fee and the hosting of the name on by markbox&rsquo;s service. <strong>That is not going to happen.</strong> The fee is small enough that I do not care, but I am not moving my domain name.
+The DNS entries setup just the way I like them, www. and blog. point to my baked blog hosted on Github pages, mail. and cal. point to my google apps account. It works, and has been working for several years &ndash; the Google Apps part at least. I do not want to touch it.
+The ideal would be to be able to point the CNAME records for www. and blog. to username.markbox.io in the same way that they currently point to username.github.com.</p>
+
+<p>This brings me to what I like about markbox.io &ndash; besides it being a really good idea in theory. Based on my earlier frustrations, I put the service away and out of my mind, but earlier today after receiving an email reminder that the trial period was nearing its end, I decided to give it another look. An <em>this custom domain issue thing is a dealbreaker</em> email garnered what has been an encouraging email exchange with the developer, Steve Ivy.
+The jury is still out on whether or not the custom domain issue will work the way I need it to work, but the fact that Steve is willing to have a conversation about it bodes well for the future of this product.
+He was also very upfront about what features are not ready,  namely static pages and custom tags. I can live with those limitations for the time being. I&rsquo;m not sure how I feel about paying for less than what I already get for free, but sometimes you just have to suck it up and support a service you believe in. This maybe one of those cases.</p>
+
+<p>My conversation with Steve inspired the writing of this post with the intention of putting it up on my markbox blog. There were, of course, some stumbling blocks. These revolved around the process for making a new post not being clear. By this I mean, what are the rules for making a post:</p>
+
+<ol>
+<li>Is there a naming convention for the title?</li>
+<li>Is there meta data that needs to be included at the top of the post</li>
+<li>How are new posts recognized</li>
+</ol>
+
+
+<p>To the best of my knowledge the answers to these questions are as follows:</p>
+
+<ol>
+<li>Yes</li>
+<li>Yes</li>
+<li>Go to the <strong>posts</strong> section of the dashboard and hit <strong>update</strong></li>
+</ol>
+
+
+<p>The first two answers were obvious <strong>to me</strong> because I already use a baked blog, and those are the rules of baked blogging. However, but it would not be obvious to someone who is not familiar with baked blogging. This sort of problem is solved with clear instructions, and possibly a post generator.</p>
+
+<p>It would be nice, if updating the blog was as simple as opening my favorite text editor, writing something, and saving, but the tech does not seem to be there yet &ndash; at least markbox is not there yet. Based on what I saw from the homegrown markdown/dropbox solutions available on <a href="https://github.com/myfreeweb/markbox">Github</a> getting there is not easy.
+Will we eventually have a dropbox/markdown blogging solution that regularly scans a your-dropbox-account/Apps/blogging-app/posts for new entries, automagically adds the appropriate meta data to the new entry, and re-saves it with the correct filename? If there is a large enough user base asking for it, then yes? Does it already exist? I do not know. I have tried everything but <a href="http://skrivr.com/">Skrivr&rsquo;s</a> and none of them had such functionality it. Maybe <a href="http://skrivr.com/">Skrivr&rsquo;s</a> does &ndash; I will not know until they get around to sending out another round of invites.</p>
+
+<p>Where does this leave me, and what sometimes feel like my Sisyphean quest to find a dead simple blogging solution? Using my Octopress blog until Steve comes back with an answer on the custom domain question. If the answer is yes, I can do it the way I want, then I (and my custom Octopress template) will happily move over to markbox blogging. If not, then the quest will continue.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Close But No Cigar]]></title>
